@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" 
+
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+
+                           http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+<bean class="com.SpringCore.exam.exam1" name="exm">
+<property name="question" value="What is java?"></property>
+
+<property name="answer">
+<list>
+<value>I don't know.</value>
+<value>I know all about it.</value>
+
+</list></property>
+
+</bean>
+</beans>
